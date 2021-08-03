@@ -34,6 +34,12 @@
       justify-content: space-between;
       align-items: flex-start;
     }
+    .attendance-holder:first-child {
+      width: 35%;
+    }
+    .attendance-holder:last-child {
+      width: 60%;
+    }
     @media (max-width: 60rem) {
       body {
         padding: 1rem;
@@ -43,6 +49,13 @@
       }
       .attendance-holder {
         flex-direction: column;
+      }
+      .attendance-holder:first-child {
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      .attendance-holder:last-child {
+        width: 100%%;
       }
     }
   </style>
